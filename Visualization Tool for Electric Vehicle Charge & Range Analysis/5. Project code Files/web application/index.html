@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-CarStart</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">E-CarStart</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- DASHBOARD SECTION -->
+<section id="dashboard" class="container my-5">
+  <h2 class="mb-3">Dashboard</h2>
+
+  <!-- Dashboard iframe will come here -->
+  <iframe
+    src="https://public.tableau.com/views/SmartBridgeProject_17707335826020/Dashboard1?:showVizHome=no&publish=yes"
+    width="100%"
+    height="700"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- STORY SECTION -->
+<section id="story" class="container my-5">
+  <h2 class="mb-3">Story</h2>
+
+  <!-- Story iframe will come here -->
+  <iframe
+    src="https://public.tableau.com/views/SmartBridgeProject_17707335826020/StoryOfElectricCarsInIndia?:showVizHome=no&publish=yes"
+    width="100%"
+    height="700"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
